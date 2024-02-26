@@ -9,30 +9,22 @@ import {
   Button,
 } from "@material-tailwind/react";
 
-function Projects() {
+function Projects({}) {
   return (
-    <section className='flex container absolute'>
-      <div className='relative overflow-hidden shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg  w-1/6'>
-        <img className='flex-shrink-0 w-full z-1' src="src/assets/metischat-project.jpg" alt="MetisChat image" />
-        <div className='opacity-0 hover:opacity-100 absolute inset-0 flex items-center justify-center backdrop-blur-sm bg-black bg-opacity-50 text-white'>
+    <div className='flex flex-col md:flex-row'>
+      <div className='group group justify-self-start relative overflow-hidden flex shadow-xl ring-1 ring-gray-900/5 lg:w-1/6 sm:w-1/3 w-1/2 rounded-lg'>
+        <img className='transition ease-in-out duration-500 scale-100 group-hover:scale-110' src="src/assets/metischat-project.jpg" alt="MetisChat image" />
+        <div className='transition ease-in-out duration-500 opacity-0 absolute inset-0 backdrop-blur-sm bg-black bg-opacity-50 text-white group-hover:opacity-100'>
           <p className=''>MetisChat</p>
         </div>
       </div> 
-      <div className='relative overflow-hidden shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg  w-1/6'>
-        <img className='flex-shrink-0 w-full z-1' src="src/assets/metischat-project.jpg" alt="MetisChat image" />
-        <div className='opacity-0 hover:opacity-100 absolute inset-0 flex items-center justify-center backdrop-blur-sm bg-black bg-opacity-50 text-white'>
-          <p className=''>MetisChat</p>
-        </div>
-      </div>  
-      <div className='relative overflow-hidden shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg  w-1/6'>
-        <img className='flex-shrink-0 w-full z-1' src="src/assets/metischat-project.jpg" alt="MetisChat image" />
-        <div className='opacity-0 hover:opacity-100 absolute inset-0 flex items-center justify-center backdrop-blur-sm bg-black bg-opacity-50 text-white'>
+      <div className='group justify-self-end relative overflow-hidden flex shadow-xl ring-1 ring-gray-900/5 lg:w-1/6 sm:w-1/3 w-1/2  rounded-lg'>
+        <img className='transition ease-in-out duration-500 scale-100 group-hover:scale-110' src="src/assets/metischat-project.jpg" alt="MetisChat image" />
+        <div className='transition ease-in-out duration-500 opacity-0 absolute inset-0 backdrop-blur-sm bg-black bg-opacity-50 text-white group-hover:opacity-100'>
           <p className=''>MetisChat</p>
         </div>
       </div> 
-      <SimpleCard></SimpleCard>
-       
-    </section>
+    </div>
   )
 }
 

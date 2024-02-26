@@ -6,12 +6,12 @@ import {
     Button,
   } from "@material-tailwind/react";
    
-  export function SimpleCard() {
+  export function SimpleCard({title, description}) {
     return (
       <Card className="mt-6 w-96">
         <CardBody>
           <Typography variant="h5" color="blue-gray" className="mb-2">
-            UI/UX Review Check
+            {title}
           </Typography>
           <Typography>
             The place is close to Barceloneta Beach and bus stop just 2 min by
