@@ -1,7 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+
+const withMT = require("@material-tailwind/react/utils/withMT");
+ 
+
+
+module.exports = withMT({
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   mode: "jit",
+  variants:{
+    extend: {
+      display: ["group-hover"],
+    },
+  },
   theme: {
     extend: {
       colors: {
@@ -24,4 +34,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+});
