@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styles from './style';
 import { Contact, Footer, Hero, Navbar, Projects} from './components';
 
