@@ -23,6 +23,9 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import dlogoremovebg from "./dlogoremovebg.png"
+import metischat_project from "./metischat_project.jpg"
+import MetisChat_wip from "./MetisChat_wip.png"
 
 export {
   airbnb,
@@ -50,4 +53,7 @@ export {
   people01,
   people02,
   people03,
+  dlogoremovebg,
+  metischat_project,
+  MetisChat_wip,
 };
