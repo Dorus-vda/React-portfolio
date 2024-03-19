@@ -15,7 +15,7 @@ export function DialogCarousel({imagelink1, imagelink2, imagelink3, }) {
  
   return (
     <>
-      <Button onClick={handleOpen} variant="gradient">
+      <Button className="hidden lg:flex" onClick={handleOpen} variant="gradient">
         Open Dialog
       </Button>
       <Dialog open={open} handler={handleOpen} className="bg-primary">

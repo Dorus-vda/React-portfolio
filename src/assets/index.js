@@ -26,6 +26,8 @@ import people03 from "./people03.png";
 import dlogoremovebg from "./dlogoremovebg.png"
 import metischat_project from "./metischat_project.jpg"
 import MetisChat_wip from "./MetisChat_wip.png"
+import quantumproject_cover from "./quantumproject_cover.jpg"
+import cpp_img from "./cpp_img.jpg"
 
 export {
   airbnb,
@@ -56,4 +58,6 @@ export {
   dlogoremovebg,
   metischat_project,
   MetisChat_wip,
+  quantumproject_cover,
+  cpp_img
 };
